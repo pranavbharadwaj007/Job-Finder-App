@@ -1,6 +1,7 @@
 # Job-Finder-App
 A full stack job hunting application with admin panel
 
+## <a href="https://www.youtube.com/watch?v=M7X4wFTOs-c">Demo video</a>
 ## Frontend
 React.js,
 React router,
