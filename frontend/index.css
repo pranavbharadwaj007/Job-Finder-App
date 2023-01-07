@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root {
+  --primary: #23bc3c;
+  
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  
+}
+* {
+  color: #2c2b52;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+.logoh{
+color: #23bc3c;
+
+font-family: 'Pacifico', cursive;
+}
+.sidem{
+  height: 500px;
+  width: 500px;
+ 
+}
+
+
+.firstsection {
+  height: 100vh;
+}
+
+.box-main {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  max-width: 90%;
+  margin: auto;
+  height: 53%;
+  margin-top: 60px;
+}
+
+
+
+.firstclass {
+ 
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 80%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 80%;
+  flex-direction: row-reverse;
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: var(--primary);
+}
+
+/* page content */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+
+
+
+
+
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.help-layout nav a{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.help-layout nav a:hover{
+  border-color: var(--primary);
+}
+.help-layout nav a.active {
+  background: var(--primary);
+}
+
+/* faq */
+.faq .question {
+  background: rgba(0,0,0,0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* contact form */
+form {
+  margin-top: 30px;
+}
+form input, form label span, form textarea {
+  display: block;
+}
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--secondary);
+}
+form label span {
+  margin-bottom: 10px;
+}
+
+/* careers list */
+.careers > a {
+  display: block;
+  background: rgba(101, 246, 120, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+  
+}
+.careers > a:hover{
+  background-color: rgb(203, 247, 212);
+}
+.careers > a:hover p {
+  color: var(--primary);
+  
+}
+.careers p {
+  margin: 0;
+}
+.careers > a p:last-child {
+ font-size: 0.8em;
+ color: rgb(140, 142, 141);
+}
+
+.career-details nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  
+}
+.career-details nav a{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.career-details nav a:hover{
+  border-color: var(--primary);
+}
+.career-details nav a.active {
+  background: var(--primary);
+}
+
+.main-f{
+  color: rgb(2, 103, 2);
+  font-size: 22px;
+ 
+}
+.carbox{
+  background: rgba(101, 246, 120, 0.2);
+  border-radius: 24px;
+  padding-left: 10px;
+  width: 95%;
+}
+.but {
+  background-color: #1c87c9 ;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #34cb06;
+    box-shadow: 0 0 5px #2ba805;
+  }
+  50% {
+    background-color: #6cec45;
+    box-shadow: 0 0 20px #49e819;
+  }
+  100% {
+    background-color: #34c907;
+    box-shadow: 0 0 5px #2ba805;
+  }
+}
+.but {
+  animation: glowing 1300ms infinite;
+}
+.lin{
+  text-decoration: none;
+}
